@@ -10,6 +10,13 @@ app.get('/balance', function(req, res) {
   });
 });
 
+app.get('/register', function(req, res) {
+  var account = web3.eth.accounts.create();
+  var encryptedJSON = account.encrypt(account.privateKey, req.query.password);
+
+  res.send({address: account.address});
+});
+
 app.listen(3000, function() {
   console.log('CryptoPoker Backend listening on port 3000!')
 });
