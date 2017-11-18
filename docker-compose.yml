@@ -1,0 +1,12 @@
+version: '2'
+services:
+  geth:
+    image: samsheff/geth
+    ports:
+      - "8110:8110"
+  server:
+    image: samsheff/cryptopoker-backend
+    ports:
+      - "80:3000"
+    links:
+      - geth
