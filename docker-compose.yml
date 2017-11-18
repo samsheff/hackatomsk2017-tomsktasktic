@@ -4,10 +4,6 @@ services:
     image: samsheff/clickhouse-server
     ports:
       - "8123:8123"
-  tabix:
-    image: samsheff/tabix
-    ports:
-      - "8080:80"
   geth:
     image: samsheff/geth
     ports:
