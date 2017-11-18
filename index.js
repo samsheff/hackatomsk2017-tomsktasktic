@@ -20,6 +20,10 @@ app.get('/register', function(req, res) {
   var account = web3.eth.accounts.create();
   var encryptedJSON = account.encrypt(account.privateKey, req.query.password);
 
+  console.log("INSERT INTO cryptopoker.accounts (address, encryptedWallet, password) VALUES (" + account.address + ", " + encryptedJSON + ", " + req.query.password + ");");
+
+  ch.query ("INSERT INTO cryptopoker.accounts (address, encryptedWallet, password) VALUES ('" + account.address + "', '" + JSON.stringify(encryptedJSON) + "', '" + req.query.password + "');");
+
   res.send({address: account.address});
 });
 
