@@ -8,6 +8,7 @@ const express = require('express')
 const app = express()
 
 const CREATE_DATABASE_STRING = "CREATE DATABASE IF NOT EXISTS cryptopoker;"
+const CREATE_PLAYER_TABLES_TABLE_STRING = "CREATE TABLE IF NOT EXISTS cryptopoker.player_tables (address_player String, id_table UInt32, createdAt DateTime DEFAULT now()) Engine = Log;";
 const CREATE_ACCOUNT_TABLE_STRING = "CREATE TABLE IF NOT EXISTS cryptopoker.accounts (address String, encryptedWallet String, password String, createdAt DateTime DEFAULT now()) Engine = Log;";
 const CREATE_TABLES_TABLE_STRING = "CREATE TABLE IF NOT EXISTS cryptopoker.tables (id UInt32, name String, minimum_buy_in UInt32 DEFAULT 10, maximum_buy_in UInt32 DEFAULT 1000, small_blind UInt32 DEFAULT 6, big_blind UInt32 DEFAULT 3, max_players UInt32 DEFAULT 8) Engine = Log;";
 const ADD_TEST_TABLE = "INSERT INTO cryptopoker.tables (id, name) VALUES (1, 'SuperCrypto');"
@@ -40,13 +41,44 @@ app.get('/tables', function(req, res){
   });
 });
 
+app.get('/sit', function(req, res){
+  var buyin = req.query.buyin || 0;
+  var tableId = req.query.table;
+  var address = req.query.address;
+
+  if (buyin > 0 && tableId && address) {
+    var tablesStream = ch.query('SELECT * FROM cryptopoker.tables WHERE id = ' + tableId + ' LIMIT 1');
+    var table;
+
+    tablesStream.on ('data', function (tableRow) {
+      table = tableRow;
+    });
+
+    tablesStream.on ('end', function () {
+      var minBuyIn = table[2];
+      var maxBuyIn = table[3];
+      if (buyin >= minBuyIn && buyin <= maxBuyIn) {
+        ch.query("INSERT INTO cryptopoker.player_tables (address_player, id_table) VALUES ( '" + address + "', " + tableId + " LIMIT 1", function () {
+          res.send({table: table});
+        });
+      } else {
+        res.send({error: "Buy In Too Low"})
+      }
+    });
+  } else {
+    res.send({error: "Missing a required param!"})
+  }
+});
+
 app.listen(3000, function() {
   console.log('CryptoPoker Backend listening on port 3000!');
 
   ch.query(CREATE_DATABASE_STRING, function () {
     ch.query(CREATE_ACCOUNT_TABLE_STRING, function () {
       ch.query(CREATE_TABLES_TABLE_STRING, function () {
-        ch.query(ADD_TEST_TABLE);
+        ch.query(ADD_TEST_TABLE, function () {
+          ch.query(CREATE_PLAYER_TABLES_TABLE_STRING);
+        });
       });
     });
   });

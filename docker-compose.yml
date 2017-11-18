@@ -8,6 +8,10 @@ services:
     image: samsheff/geth
     ports:
       - "8110:8110"
+  tabix:
+    image: samsheff/tabix
+    ports:
+      - "8080:80"
   server:
     image: samsheff/cryptopoker-backend
     ports:
