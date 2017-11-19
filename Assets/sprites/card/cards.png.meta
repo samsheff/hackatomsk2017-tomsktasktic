@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d4efc9fc7e3d71c40a9c43f015c00cc2
-timeCreated: 1511037962
+timeCreated: 1511064615
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -82,7 +82,7 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -133,12 +133,12 @@ TextureImporter:
       name: cards_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1099
+        x: 10
+        y: 1091
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -146,12 +146,12 @@ TextureImporter:
       name: cards_1
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1099
+        x: 271
+        y: 1091
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -159,12 +159,12 @@ TextureImporter:
       name: cards_2
       rect:
         serializedVersion: 2
-        x: 535
-        y: 1095
+        x: 541
+        y: 1087
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -172,12 +172,12 @@ TextureImporter:
       name: cards_3
       rect:
         serializedVersion: 2
-        x: 805
-        y: 1090
+        x: 801
+        y: 1087
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -185,12 +185,12 @@ TextureImporter:
       name: cards_4
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 1090
+        x: 1072
+        y: 1087
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -198,12 +198,12 @@ TextureImporter:
       name: cards_5
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 1094
+        x: 1333
+        y: 1095
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -211,12 +211,12 @@ TextureImporter:
       name: cards_6
       rect:
         serializedVersion: 2
-        x: 1593
-        y: 1090
+        x: 1607
+        y: 1099
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -224,12 +224,12 @@ TextureImporter:
       name: cards_7
       rect:
         serializedVersion: 2
-        x: 1858
-        y: 1099
+        x: 1864
+        y: 1095
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -237,12 +237,12 @@ TextureImporter:
       name: cards_8
       rect:
         serializedVersion: 2
-        x: 2128
-        y: 1099
+        x: 2120
+        y: 1095
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -250,12 +250,12 @@ TextureImporter:
       name: cards_9
       rect:
         serializedVersion: 2
-        x: 2385
-        y: 1095
+        x: 2392
+        y: 1090
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -263,12 +263,12 @@ TextureImporter:
       name: cards_10
       rect:
         serializedVersion: 2
-        x: 2655
-        y: 1095
+        x: 2659
+        y: 1092
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -276,12 +276,12 @@ TextureImporter:
       name: cards_11
       rect:
         serializedVersion: 2
-        x: 2925
-        y: 1099
+        x: 2926
+        y: 1098
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -289,12 +289,12 @@ TextureImporter:
       name: cards_12
       rect:
         serializedVersion: 2
-        x: 3200
-        y: 1095
+        x: 3194
+        y: 1092
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -302,12 +302,12 @@ TextureImporter:
       name: cards_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 730
+        x: 10
+        y: 722
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -315,12 +315,12 @@ TextureImporter:
       name: cards_14
       rect:
         serializedVersion: 2
-        x: 274
+        x: 271
         y: 730
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -328,12 +328,12 @@ TextureImporter:
       name: cards_15
       rect:
         serializedVersion: 2
-        x: 535
-        y: 730
+        x: 536
+        y: 725
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -341,12 +341,12 @@ TextureImporter:
       name: cards_16
       rect:
         serializedVersion: 2
-        x: 801
+        x: 793
         y: 725
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -354,12 +354,12 @@ TextureImporter:
       name: cards_17
       rect:
         serializedVersion: 2
-        x: 1066
+        x: 1063
         y: 730
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -367,12 +367,12 @@ TextureImporter:
       name: cards_18
       rect:
         serializedVersion: 2
-        x: 1336
-        y: 725
+        x: 1337
+        y: 731
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -380,12 +380,12 @@ TextureImporter:
       name: cards_19
       rect:
         serializedVersion: 2
-        x: 1593
-        y: 730
+        x: 1594
+        y: 725
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -393,12 +393,12 @@ TextureImporter:
       name: cards_20
       rect:
         serializedVersion: 2
-        x: 1863
-        y: 730
+        x: 1864
+        y: 725
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -406,12 +406,12 @@ TextureImporter:
       name: cards_21
       rect:
         serializedVersion: 2
-        x: 2125
-        y: 733
+        x: 2129
+        y: 730
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -419,12 +419,12 @@ TextureImporter:
       name: cards_22
       rect:
         serializedVersion: 2
-        x: 2393
-        y: 734
-        width: 261
+        x: 2386
+        y: 726
+        width: 268
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 9
+      pivot: {x: 0.48459107, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -432,12 +432,12 @@ TextureImporter:
       name: cards_23
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 725
+        x: 2660
+        y: 730
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -445,12 +445,12 @@ TextureImporter:
       name: cards_24
       rect:
         serializedVersion: 2
-        x: 2935
-        y: 725
+        x: 2926
+        y: 721
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -458,12 +458,12 @@ TextureImporter:
       name: cards_25
       rect:
         serializedVersion: 2
-        x: 3200
+        x: 3196
         y: 725
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -471,12 +471,12 @@ TextureImporter:
       name: cards_26
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 360
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -484,12 +484,12 @@ TextureImporter:
       name: cards_27
       rect:
         serializedVersion: 2
-        x: 265
+        x: 271
         y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -497,12 +497,12 @@ TextureImporter:
       name: cards_28
       rect:
         serializedVersion: 2
-        x: 531
-        y: 360
+        x: 541
+        y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -510,12 +510,12 @@ TextureImporter:
       name: cards_29
       rect:
         serializedVersion: 2
-        x: 796
+        x: 802
         y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -523,12 +523,12 @@ TextureImporter:
       name: cards_30
       rect:
         serializedVersion: 2
-        x: 1062
+        x: 1072
         y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -536,12 +536,12 @@ TextureImporter:
       name: cards_31
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 360
+        x: 1324
+        y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -549,12 +549,12 @@ TextureImporter:
       name: cards_32
       rect:
         serializedVersion: 2
-        x: 1593
-        y: 365
+        x: 1594
+        y: 360
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -562,12 +562,12 @@ TextureImporter:
       name: cards_33
       rect:
         serializedVersion: 2
-        x: 1863
-        y: 369
+        x: 1864
+        y: 360
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -575,12 +575,12 @@ TextureImporter:
       name: cards_34
       rect:
         serializedVersion: 2
-        x: 2124
+        x: 2125
         y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -588,12 +588,12 @@ TextureImporter:
       name: cards_35
       rect:
         serializedVersion: 2
-        x: 2389
+        x: 2395
         y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -601,12 +601,12 @@ TextureImporter:
       name: cards_36
       rect:
         serializedVersion: 2
-        x: 2655
-        y: 369
+        x: 2647
+        y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -614,12 +614,12 @@ TextureImporter:
       name: cards_37
       rect:
         serializedVersion: 2
-        x: 2929
+        x: 2930
         y: 365
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -627,12 +627,12 @@ TextureImporter:
       name: cards_38
       rect:
         serializedVersion: 2
-        x: 3195
-        y: 365
+        x: 3196
+        y: 368
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -640,12 +640,12 @@ TextureImporter:
       name: cards_39
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
+        x: 10
+        y: 4
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -653,12 +653,12 @@ TextureImporter:
       name: cards_40
       rect:
         serializedVersion: 2
-        x: 275
-        y: 4
+        x: 271
+        y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -666,12 +666,12 @@ TextureImporter:
       name: cards_41
       rect:
         serializedVersion: 2
-        x: 535
-        y: 4
+        x: 536
+        y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -679,12 +679,12 @@ TextureImporter:
       name: cards_42
       rect:
         serializedVersion: 2
-        x: 801
+        x: 806
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -692,12 +692,12 @@ TextureImporter:
       name: cards_43
       rect:
         serializedVersion: 2
-        x: 1062
+        x: 1067
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -705,12 +705,12 @@ TextureImporter:
       name: cards_44
       rect:
         serializedVersion: 2
-        x: 1327
+        x: 1329
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -718,12 +718,12 @@ TextureImporter:
       name: cards_45
       rect:
         serializedVersion: 2
-        x: 1597
+        x: 1598
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -731,12 +731,12 @@ TextureImporter:
       name: cards_46
       rect:
         serializedVersion: 2
-        x: 1858
-        y: 4
+        x: 1859
+        y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -744,12 +744,12 @@ TextureImporter:
       name: cards_47
       rect:
         serializedVersion: 2
-        x: 2128
+        x: 2129
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -757,12 +757,12 @@ TextureImporter:
       name: cards_48
       rect:
         serializedVersion: 2
-        x: 2403
-        y: 9
+        x: 2390
+        y: 4
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -770,12 +770,12 @@ TextureImporter:
       name: cards_49
       rect:
         serializedVersion: 2
-        x: 2655
+        x: 2660
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -783,12 +783,12 @@ TextureImporter:
       name: cards_50
       rect:
         serializedVersion: 2
-        x: 2934
+        x: 2930
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -800,8 +800,8 @@ TextureImporter:
         y: 0
         width: 261
         height: 356
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

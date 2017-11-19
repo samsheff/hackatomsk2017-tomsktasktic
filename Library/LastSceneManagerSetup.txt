@@ -1,4 +1,4 @@
 sceneSetups:
-- path: D:/Web/Poker 0.2/Assets/Main.unity
+- path: Assets/Demo.unity
   isLoaded: 1
   isActive: 1

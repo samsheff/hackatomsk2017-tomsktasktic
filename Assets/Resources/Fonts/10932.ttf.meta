@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f21ca0c5982d243f6b7af31643a47bbb
+timeCreated: 1511065093
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Debiloide
+  fontNames:
+  - Debiloide
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
