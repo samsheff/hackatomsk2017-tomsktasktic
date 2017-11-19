@@ -41,7 +41,8 @@ public class PlayerManager : MonoBehaviour,PlayerHandler
 		Transform trans = gameManager.instantiateNewCard (card).transform;
 		trans.SetParent (CardsHolder);
 		trans.localScale = new Vector3 (1, 1, 1);
-		trans.GetComponent<Image> ().enabled = false;
+        if (!gameObject.CompareTag("GameController"))
+    		trans.GetComponent<Image> ().enabled = false;
 	}
 
 	public void ShowOff ()
